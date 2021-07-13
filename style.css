@@ -1,13 +1,10 @@
 body{
-    text-align:center;
+text-align:center;
+font-size:100px;
+}
+.sp{
+margin:20px;
 }
 img{
-    width: 250px;
-    border-radius:50%;
-}
-#sec1{
-    background:darkcyan;
-}
-#sec2{
-    background:cyan;
+width:40px;
 }
