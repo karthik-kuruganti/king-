@@ -1,9 +1,16 @@
 body{
-    text-align: center
+    text-align: center;
+    background: darksalmon
 }
-#msd{
+#img2{
+    border-radius: 50px;
+    width: 500px;
+}
+#img3{
+    border-radius: 50px;
+    width: 500px;
+}
+#para{
     color: forestgreen;
-}
-#scr1{
-    background: darksalmon;
+    font-size: 30px;
 }
