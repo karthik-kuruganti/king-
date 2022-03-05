@@ -1,34 +1,49 @@
-<!DOCTYPE html>
-<html lang="">
+<html>
+    <head>
+        <title>
+            java script syntax
+        </title>
+    </head>
+    <body>
+        
+<h1>open console</h1>
+<h2>for opening console, right click on u r mouse and select inspect. then on the right side top u get the console option</h2>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<script>
 
-<body>
-    <ui class="menu">
-        <li class="links">Home</li>
-        <li class="links">my video</li>
-        <li class="links">work</li>
-        <li class="links">writings</li>
-        <li class="links">contact</li>
-    </ui>
-    <section id="welcome">
-        <div class="parallax-inner"> <img src="stbl.jpg" class="profile" />
-            <h1>I Am <br><span id="name">Tim Berners-Lee</span></h1>
-            <h2> I am the founder of www: World Wide Web</h2>
-        </div>
-    </section>
-    <section id="bio">
-        <h1>Hi!</h1>
-        <div class="line"></div>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford. In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and al
-            and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded. In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users. The Web was first used for e-commerce in 1997.</p>
-    </section>
+console.log(" hi i am console screen ");
 
-</body>
+var first_name ="KARTHIK";
+console.log(first_name);
 
+var last_name =" KURUGANTI";
+console.log(last_name);
+
+var full_name =first_name.concat(last_name);
+console.log(full_name);
+
+var replace_name =full_name.replace( "KARTHIK","AMRUTHA" );
+console.log(replace_name);
+
+var lower_case =full_name.toLocaleLowerCase();
+console.log(lower_case);
+
+var upper_case =lower_case.toUpperCase();
+console.log(upper_case);
+
+var square_root =Math.sqrt(16);
+console.log(square_root);
+
+var max_number =Math.max(15 , 10);
+console.log(max_number);
+
+var min_number =Math.min(15 , 10);
+console.log(min_number);
+
+var power =Math.pow(4 , 3);
+console.log(power);
+
+</script>
+
+    </body>
 </html>
